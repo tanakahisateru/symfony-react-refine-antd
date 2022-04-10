@@ -7,6 +7,8 @@
 
 ```sh
 composer install
+symfony console doctrine:database:create
+symfony console doctrine:schema:create
 yarn install
 yarn dev
 symfony server:start
