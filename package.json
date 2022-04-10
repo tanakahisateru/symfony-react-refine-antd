@@ -1,0 +1,33 @@
+{
+    "devDependencies": {
+        "@hotwired/stimulus": "^3.0.0",
+        "@symfony/stimulus-bridge": "^3.0.0",
+        "@symfony/webpack-encore": "^1.7.0",
+        "@types/react": "^18.0.0",
+        "@types/react-dom": "^18.0.0",
+        "core-js": "^3.0.0",
+        "regenerator-runtime": "^0.13.2",
+        "typescript": "^4.6.3",
+        "webpack-notifier": "^1.6.0"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    },
+    "dependencies": {
+        "@babel/preset-react": "^7.16.7",
+        "@pankod/refine-antd": "^3.12.1",
+        "@pankod/refine-core": "^3.12.1",
+        "@pankod/refine-react-router-v6": "^3.12.1",
+        "@pankod/refine-simple-rest": "^3.12.1",
+        "prop-types": "^15.8.1",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "react-query": "^3.34.19",
+        "ts-loader": "^9.2.8"
+    }
+}
